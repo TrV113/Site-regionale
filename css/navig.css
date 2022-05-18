@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+.article {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.linav {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+body {
+    height: 400vh;
+}
+
+
+.header-nav {
+    background-color: #000000d0;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header-ul li {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+
+.header-ul li:hover{
+    background-color: #3f3c3cd0;
+    text-decoration: underline;
+}
+
+.image {
+    background: url(../images/bg-image.jpg) no-repeat center/cover;
+    height: 60vh;
+    opacity: 0.7;
+}
+
+h1 {
+    margin-top: 5em;
+    color: darkcyan;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+.amb {
+    text-align: center;
+}
+
+.amboise {
+    width: 70%;
+    padding-bottom: 6rem;
+}
+
+.amb h2 {
+    padding: 50px;
+}
+
+
+
+.resum {
+    margin-top: 35px;
+    background-color: rgb(189, 199, 199);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
